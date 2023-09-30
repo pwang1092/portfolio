@@ -1,0 +1,108 @@
+.navbar {
+    background: rgb(30, 30, 30); 
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0; 
+    z-index: 3;
+}
+
+.logo {
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+}
+
+.desktopMenuItem {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.desktopMenuItem:hover {
+    color: yellow;
+    padding-bottom: 0.5 rem;
+    border-bottom: 3px solid yellow; 
+}
+
+.active {
+    color: yellow; 
+    border-bottom: 3px solid yellow;
+    padding-bottom: 0.5rem;
+}
+
+
+/* contact me button CSS classes below */
+
+.desktopMenuBtn {
+    background: white;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1.5rem; 
+    border-radius: 2rem;
+    border: none;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.desktopMenuImg {
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+}
+
+.desktopMenuBtn:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+/*burger menu stuff*/
+/* will only appear on mobile, using media query*/
+
+.mobMenu {
+    display: none;
+    object-fit: cover;
+    height: 1.8rem;
+}
+
+@media screen and (max-width: 720px) {
+    /* display mobile menu */
+    .mobMenu {
+        display: flex;
+    }
+    /* remove desktop menu */
+    .desktopMenu {
+        display: none; 
+    }
+    .desktopMenuBtn {
+        display: none; 
+    }
+}
+
+
+.navMenu {
+    position: absolute; 
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 10rem; 
+    background-color: rgb(40, 40, 40);
+    border-radius: 1rem;
+}
+
+.listItem {
+    color: white;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background-color: rgb(30, 30, 30);
+}
