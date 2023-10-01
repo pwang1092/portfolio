@@ -8,7 +8,7 @@ import linkedin from '../images/linkedin.png';
 const Footer = () => {
     return (
         <footer className='footer'>
-            <div className="email">Email: plwang@usc.edu</div>
+            <div className="email">Email: pwang1092@gmail.com</div>
 
             <div className="imgs">
                 <a href="https://www.linkedin.com/in/usc-peter-wang/" target="_blank" rel="noreferrer">
