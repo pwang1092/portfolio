@@ -16,7 +16,7 @@ const Works = () => {
                 <a href="https://github.com/pwang1092/Portfolio-Website-Peter-Wang.git" target="_blank" rel="noreferrer">
                     <img src={webDesign} alt="p1" className="worksImg"></img>
                 </a>
-                <a href="https://github.com/pwang1092/Portfolio-Website-Peter-Wang" target="_blank" rel="noreferrer">
+                <a href="https://github.com/pwang1092/portfolio" target="_blank" rel="noreferrer">
                     <img src={vision} alt="p2" className="worksImg"></img>
                 </a>
                 <a href="https://drive.google.com/drive/u/0/folders/1OfGfsR1w8ZXalf9PRDRypniAlpaE0j3P" target="_blank" rel="noreferrer">
