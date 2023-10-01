@@ -16,7 +16,7 @@ const Skills = () => {
                     <img src={ed} alt="USC" className="aboutBarImg"></img>
                     <div className="aboutBarText">
                         <h2>Education</h2>
-                        <p>Presidential Scholar at USC and Viterbi Scholar at the Viterbi School of Engineering.</p>
+                        <p>Presidential Scholar at USC (awarded to approximately 5% of students) and Viterbi Scholar at the Viterbi School of Engineering.</p>
                     </div>
                 </div>
                 <div className="aboutBar">
@@ -30,7 +30,7 @@ const Skills = () => {
                     <img src={robotics} alt="robotics" className="aboutBarImg"></img>
                     <div className="aboutBarText">
                         <h2>Design Teams</h2>
-                        <p>Electronics team member in the SC Racing team and formerly FTC robotics software member.</p>
+                        <p>Electronics team member in the SC Racing team and formerly FTC robotics software member, working on drive control and sensors.</p>
                     </div>
                 </div>
 

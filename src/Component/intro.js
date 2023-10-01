@@ -10,7 +10,7 @@ const Intro = () => {
             <div className="introContent">
                 <span className="hello">Hello, </span>
                 <span className="introText">I'm <span className="introName">Peter Wang</span><br />Chess Grandmaster...</span>
-                <p className="introPara">Just kidding, only in my dreams. <br/> I'm actually a student at the University of Southern California. In my free time, I enjoy playing chess, practicing piano, and daydreaming.</p>
+                <p className="introPara">Just kidding, only in my dreams. <br/> I'm actually a student at the University of Southern California. In my free time, I enjoy playing chess, practicing piano, and hiking.</p>
 
                 {/** button scrolls down to contact form */}
                 <Link activeClass='active' to='contactPage' spy='true' smooth={true} offset={175} duration={700} >
