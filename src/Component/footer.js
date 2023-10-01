@@ -8,7 +8,7 @@ import linkedin from '../images/linkedin.png';
 const Footer = () => {
     return (
         <footer className='footer'>
-            <div className="email">©Copyright 2023 does not exist</div>
+            <div className="email">Email me at: plwang@usc.edu</div>
 
             <div className="imgs">
                 <a href="https://www.linkedin.com/in/usc-peter-wang/" target="_blank" rel="noreferrer">
