@@ -19,7 +19,7 @@ const Navbar = () => {
                 <Link activeClass='active' to='contactPage' spy={true} smooth={true} offset={-120} duration={1000} className="desktopMenuItem">Skills</Link>
             </div>
 
-            <Link activeClass='active' to='contactPage' spy={true} smooth={true} offset={175} duration={700}>
+            <Link activeClass='active' to='contactPage' spy={false} smooth={true} offset={175} duration={700}>
                 <button className="desktopMenuBtn">
                     <img src={contactImg} alt="Contact" className = "desktopMenuImg" />Contact Me
                 </button>
