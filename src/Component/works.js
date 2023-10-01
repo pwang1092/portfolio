@@ -11,7 +11,7 @@ const Works = () => {
     return (
         <section id='works'>
             <h2 className="worksTitle">My Projects</h2>
-            <span className="worksDesc">I've been exploring different areas of computer science recently, including web design, computer vision, and data science and visualization. Visit my project code by clicking the images below! <br></br>(website built with React, OpenCV project, and data science project on COVID vaccination efficacy) </span>
+            <span className="worksDesc">I've been exploring different areas of computer science recently, including web design, computer vision, and data science and visualization. Visit my project code by clicking the images below! <br></br>(website built with React, OpenCV project, and data science project on COVID vaccinations vs. COVID deaths) </span>
             <div className="worksImgs">
                 <a href="https://github.com/pwang1092/Portfolio-Website-Peter-Wang.git" target="_blank" rel="noreferrer">
                     <img src={webDesign} alt="p1" className="worksImg"></img>
