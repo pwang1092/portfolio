@@ -5,6 +5,7 @@
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+    /*margin-bottom: 4rem;*/
 }
 
 .bg {
@@ -12,7 +13,7 @@
     top: 8rem; /*a bit behind navbar*/
     right: 0; 
     z-index: -1; /*behind text*/
-    object-fit: cover; /*prevent loss of dimension*/
+    object-fit: cover; 
     height: 60vh; /*height is fixed, witdth is not*/
 }
 

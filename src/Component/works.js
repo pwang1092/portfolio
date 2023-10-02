@@ -1,8 +1,6 @@
 import React from 'react';
 import './works.css'; 
-import web from '../images/web.png';
-import opencv from '../images/cv.png';
-import data from '../images/data.png';
+
 import datascience from '../images/dataScience3.png';
 import vision from '../images/vision.png';
 import webDesign from '../images/webDesign2.png'; 

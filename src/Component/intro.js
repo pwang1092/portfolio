@@ -9,8 +9,10 @@ const Intro = () => {
         <section id="intro">
             <div className="introContent">
                 <span className="hello">Hello, </span>
-                <span className="introText">I'm <span className="introName">Peter Wang</span><br />Chess Grandmaster...</span>
-                <p className="introPara">Just kidding, only in my dreams. <br/> I'm actually a student at the University of Southern California. In my free time, I enjoy playing chess, practicing piano, and hiking.</p>
+                <span className="introText">I'm <span className="introName">Peter Wang</span><br />Computer Science student</span>
+                <p className="introPara"> I'm a student at the University of Southern California. In my free time, I enjoy practicing piano (Chopin is the best), hiking, and playing board games. 
+                    My favorite game would be chess (love the Scotch gambit). 
+                </p>
 
                 {/** button scrolls down to contact form */}
                 <Link activeClass='active' to='contactPage' spy='true' smooth={true} offset={175} duration={700} >
@@ -18,8 +20,8 @@ const Intro = () => {
                         <img src={contactImg} alt="contact me" className = "btnImg"/>Contact me
                     </button>
                 </Link>
-
             </div>
+            
             <img src={bg} alt="selfie" className="bg" />
         </section>
     );
