@@ -21,7 +21,7 @@
     height: 100vh;
     width: 50vw; 
     padding: 2rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
     display: flex; /*align content in horizontal way*/
     flex-direction: column;
@@ -34,7 +34,8 @@
 }
 
 .introName {
-    color: rgb(91, 163, 171); 
+    color: rgb(91, 163, 171);
+    font-size: 3rem; 
 }
 
 .introPara {
