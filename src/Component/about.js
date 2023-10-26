@@ -8,7 +8,7 @@ const Skills = () => {
     return (
         <section id='about'>
             <span className = "aboutTitle" >About Me</span>
-            <span className = "aboutDesc" >I am a freshman pursing my B.S. at the University of Southern California. The coursework I'm completing this year includes: Discrete Methods in CS, Introduction to Embedded Systems, Data Structures & Object Oriented Design, and Probability Theory.
+            <span className = "aboutDesc" >I am a freshman pursing my B.S. at the University of Southern California. Coursework I'm completing this year includes: Discrete Methods in CS, Introduction to Embedded Systems, Data Structures & Object Oriented Design, and Probability Theory.
 Outside of classes, I'm an undergraduate research assistant, competitor on the USC ICPC team, and robotics software developer.</span>
             
             <div className = "aboutBars">
