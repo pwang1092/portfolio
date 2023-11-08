@@ -29,8 +29,9 @@ Outside of classes, I'm an undergraduate research assistant, competitor on the U
                 <div className="aboutBar">
                     <img src={robotics} alt="robotics" className="aboutBarImg"></img>
                     <div className="aboutBarText">
-                        <h2>Design Teams</h2>
-                        <p>Electronics team member in the SC Racing team and formerly FTC robotics software member, working on drive control and sensors.</p>
+                        <h2>Competitions & Teams</h2>
+                        <p>Selected to the USC ICPC team, placing 29th out of 82 at the socal regionals. Battlebots team
+                            treasurer and webmaster, and former FTC robotics software member, working on drive control and sensors.</p>
                     </div>
                 </div>
 
