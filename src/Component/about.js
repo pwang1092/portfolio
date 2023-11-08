@@ -23,7 +23,9 @@ Outside of classes, I'm an undergraduate research assistant, competitor on the U
                     <img src={research} alt="research" className="aboutBarImg"></img>
                     <div className="aboutBarText">
                         <h2>Research</h2>
-                        <p>CURVE undergraduate research fellow researching ray tracing for high frequency in the Wireless Devices and Systems lab.</p>
+                        <p>CURVE undergraduate research fellow researching ray tracing for high frequency in the Wireless Devices and Systems lab. 
+                            Implemented plane extraction script using point cloud library. 
+                        </p>
                     </div>
                 </div>
                 <div className="aboutBar">
