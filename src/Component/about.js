@@ -3,6 +3,7 @@ import './about.css';
 import ed from "../images/trojans.png";
 import research from "../images/chem.png"; 
 import robotics from "../images/gears.png"; 
+import work from "../images/work.png"; 
 
 const Skills = () => {
     return (
@@ -34,6 +35,13 @@ Outside of classes, I'm an undergraduate research assistant, competitor on the U
                         <h2>Competitions & Teams</h2>
                         <p>Selected to the USC ICPC team, placing 29th out of 82 at the socal regionals. Battlebots team
                             treasurer and webmaster, and former FTC robotics software member, working on drive control and sensors.</p>
+                    </div>
+                </div>
+                <div className="aboutBar">
+                    <img src={work} alt="work" className="aboutBarImg"></img>
+                    <div className="aboutBarText">
+                        <h2>Experience</h2>
+                        <p>Incoming Software Engineeirng intern at Principal Financial, summer 2024. s</p>
                     </div>
                 </div>
 
