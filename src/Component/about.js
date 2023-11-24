@@ -41,7 +41,7 @@ Outside of classes, I'm an undergraduate research assistant, competitor on the U
                     <img src={work} alt="work" className="aboutBarImg"></img>
                     <div className="aboutBarText">
                         <h2>Experience</h2>
-                        <p>Incoming Software Engineeirng intern at Principal Financial, summer 2024. s</p>
+                        <p>Incoming Software Engineeirng intern at Principal Financial, summer 2024.</p>
                     </div>
                 </div>
 
